@@ -26,8 +26,8 @@ app.get('/game', (req, res) => {
     res.render('game', { text: 'Game'})
 })
 
-app.get('/destruct_button', (req, res) => {
-    res.render('destruct_button', { text: 'Button'})
+app.get('/button', (req, res) => {
+    res.render('button', { text: 'Button'})
 })
 
 
